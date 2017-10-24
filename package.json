@@ -1,10 +1,11 @@
 {
   "name": "burger",
   "version": "1.0.0",
-  "description": "Eat da Burger",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,12 +18,16 @@
   },
   "homepage": "https://github.com/sibi1414/burger#readme",
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "express": "^4.15.4",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
-    "method-override": "^2.3.9",
+    "method-override": "^2.3.10",
     "handlebars-helper-css": "^0.1.0",
-    "mysql": "^2.14.1"
+    "mysql": "^2.15.0"
+  },
+
+  "engines": {
+    "node": "6.11.4"
   }
- 
+
 }
