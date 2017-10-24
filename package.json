@@ -23,6 +23,6 @@
     "method-override": "^2.3.9",
     "handlebars-helper-css": "^0.1.0",
     "mysql": "^2.14.1"
-  },
+  }
  
 }
