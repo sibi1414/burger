@@ -1,8 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    font-weight: bold;
     color: white;
+    font-weight: lighter;
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
 }
@@ -21,6 +21,7 @@ body {
 
 .titleCenter  {
     text-align: center;
+    text-shadow: 1px 1px 0px #000;
 }
 
 .container-middle {
@@ -53,6 +54,10 @@ body {
     border: 1px solid white;
     margin-bottom: 5px;
     margin-top: 25px;
+}
+
+.label {
+    font-weight: lighter;
 }
 
 table {
